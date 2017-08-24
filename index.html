@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Daohaus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="author" content="John D. Storey">
-  <meta name="description" content="Portfolio of John D.">
-  <meta name="keywords" content="web design, creative, mobile, app, angular, angularjs, javascript, jquery, ux, user experience">
   <meta name="publisher" content="http://johndangerstorey.com/">
+  <meta name="description" content="Rebuilding democracy, one house at a time">
+  <meta name="keywords" content="blockchain, ethereum, governance, future">
   <meta name="rating" content="General">
   <meta name="revisit-after" content="30 days">
   <meta name="robots" content="INDEX,FOLLOW">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link href="css/timeline.css" rel="stylesheet" media="screen">
   <link href="css/main.css" rel="stylesheet" media="screen">
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <!-- Facebook -->
+  <meta property="og:title" content="Daohaus" />
+  <meta property="og:description" content="Rebuilding democracy, on house at a time" />
+  <meta property="og:image" content="img/logo.png" />
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup {
+      background: #fff;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+      width: 100%;
+    }
+
+    #mc_embed_signup .button {
+      background-color: blue;
+      opacity: .7;
+    }
+  </style>
 </head>
+
 <body>
-  <!-- nav -->
   <!-- <nav class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -33,42 +56,102 @@
           <li><a href="https://github.com/johndangerstorey/daohaus/blob/master/Daohaus_Whitepaper.md">white paper</a></li>
         </ul>
       </div>
+    </div -->
+
+  <div class="section jumbotron" style="padding-top: 80px">
+    <h1>daohaus</h1>
+    <p class="jumbotron-desc">
+      rebuilding democracy, one house at a time<br> 
+      read the <a target="_blank" href="https://github.com/daohaus/paper">white paper</a> and subscribe for updates:
+    </p>
+    <div id="mc_embed_signup">
+      <form action="//daohaus.us16.list-manage.com/subscribe/post?u=5ebe9bb2466801bfe7716eba2&amp;id=5f9c3aa652" method="post"
+        id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ebe9bb2466801bfe7716eba2_5f9c3aa652" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn"></div>
+        </div>
+      </form>
     </div>
-  </nav> -->
-  
-<!-- masthead -->
-<div class="jumbotron">
-  <h2 class="jumbotron--title">d<img src="img/logo.png" width="100px" style="margin-top: -11px;" />haus</h2>
-  <p class="jumbotron--sub-title">rebuilding democracy, one house at a time</p>
-  <a target="_blank" href="https://github.com/johndangerstorey/daohaus/blob/master/Daohaus_Whitepaper.md" class="btn btn--green" style="max-width: 300px; color: white">White Paper</a>
-</div><!-- /masthead -->
-    
+    <!-- <a target="_blank" href="https://github.com/daohaus/paper" class="btn btn--green btn-outline-primary" style="max-width: 300px;">White Paper</a> -->
+  </div>
+
+  <div class="section">
+    <ul class="timeline">
+      <li class="timeline-event">
+        <label class="timeline-event-icon"></label>
+        <div class="timeline-event-copy">
+          <p class="timeline-event-thumbnail">Milestone #1 - 2017</p>
+          <h3>VISION</h3>
+          <h4>White Paper, Branding & Website</h4>
+          <p>
+            The basics to allow people to understand the project and follow our progress as we build towards a working MVP. For a more
+            in depth look at the vision and technical specs of the project read the white paper:<br><br>
+            <a target="_blank" href="https://github.com/daohaus/paper" class="btn btn-sm btn-outline-primary" style="max-width: 300px;">
+              White Paper
+            </a>
+          </p>
+        </div>
+      </li>
+      <li class="timeline-event">
+        <label class="timeline-event-icon"></label>
+        <div class="timeline-event-copy">
+          <p class="timeline-event-thumbnail">Milestone #2 - 2017</p>
+          <h3>EXECUTE</h3>
+          <h4>The Falls @ NY</h4>
+          <p>
+            Build crowdfunding and basic governance tools on Ethereum Blockchain for our MVP in upstate New York. 365 Tokens, each representing
+            1 night of use and 1/365th interest in the project.
+          </p>
+        </div>
+      </li>
+      <li class="timeline-event">
+        <label class="timeline-event-icon"></label>
+        <div class="timeline-event-copy">
+          <p class="timeline-event-thumbnail">Milestone #3 - 2018</p>
+          <h3>SCALE</h3>
+          <h4>Partnerships, Additional Sites, Network Token</h4>
+          <p>
+            Integrate with other governance platforms, build out essential UI components, and launch a token network that will help fuel
+            development of tools and the ecosystem at large
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section jumbotron" style="padding-top: 0px">
+    <h2>connect</h2>
+    <div id="mc_embed_signup">
+      <form action="//daohaus.us16.list-manage.com/subscribe/post?u=5ebe9bb2466801bfe7716eba2&amp;id=5f9c3aa652" method="post"
+        id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ebe9bb2466801bfe7716eba2_5f9c3aa652" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn"></div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
   <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
   <!-- Google Analytics -->
-  <script type="text/javascript" async>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-38156316-1']);
-  _gaq.push(['_trackPageview']);
-  
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-105332525-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
-  <script src="js/modernizr.custom.js"></script>
-  <!-- jQuery -->
-  <!-- Bootstrap js -->
-  <script src="js/bootstrap.min.js" ></script>
-  <!-- touch effects for hover effects in portfolio section -->
-  <script src="js/toucheffects.min.js" ></script>
-  <script src="js/classie.min.js" ></script>
-  <!-- bxSlider js file -->
-  <script src="js/jquery.bxslider.js" ></script>
-  <!-- Envy js -->
-  <script src="js/envy.js" ></script>
-  <!-- Optionally enable responsive features in IE8. Respond.js can be obtained from https://github.com/scottjehl/Respond -->
-  <script src="js/respond.min.js" ></script>
 </body>
+
 </html>
