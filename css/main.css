@@ -28,22 +28,20 @@ body {
 a:not(.btn) {
   text-decoration: underline;
   color: blue;
+  cursor: pointer;
 }
+
+.underline { text-decoration: underline; }
 
 .section{
   background-color: white;
+  max-width: 46em;
+  margin: 0 auto;
 }
 
-.jumbotron{
-  text-align: center;
-}
-
-.jumbotron-desc {
-  font-size: 12px;
-}
-
+.page-buffer { padding: 15px; }
+.jumbotron{ text-align: center; }
+.jumbotron-desc { font-size: 12px; }
 @media (min-width: 400px) {
-  .jumbotron-desc {
-    font-size: inherit;
-  }
+  .jumbotron-desc { font-size: inherit; }
 }
