@@ -42,6 +42,7 @@ a:not(.btn) {
 .page-buffer { padding: 15px; }
 .jumbotron{ text-align: center; }
 .jumbotron-desc { font-size: 12px; }
+li{ display: inherit;} /* removes bullet */ 
 @media (min-width: 400px) {
   .jumbotron-desc { font-size: inherit; }
 }
